@@ -14,6 +14,11 @@ class CreateDistritosTable extends Migration
     {
         Schema::create('distritos', function (Blueprint $table) {
             $table->increments('id');
+            $table->integer('id_dep')->unsigned();
+            $table->foreign('id_dep')->references('id')->on('departamentos')->onDelete('cascade');
+            $table->integer('id_prov')->unsigned();
+            $table->foreign('id_prov')->references('id')->on('provincias')->onDelete('cascade');
+            $table->string('descripcion')->nullable(false);
             $table->timestamps();
         });
     }
