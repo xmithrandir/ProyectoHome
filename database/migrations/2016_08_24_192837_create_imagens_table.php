@@ -15,6 +15,10 @@ class CreateImagensTable extends Migration
         Schema::create('imagens', function (Blueprint $table) {
             $table->increments('id');
             $table->string('descripcion')->nullable(false);
+
+            $table->integer('id_hom')->unsigned();
+            $table->foreign('id_hom')->references('id')->on('homes')->onDelete('cascade');
+
             $table->timestamps();
         });
     }

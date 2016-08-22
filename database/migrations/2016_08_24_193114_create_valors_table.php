@@ -15,6 +15,11 @@ class CreateValorsTable extends Migration
         Schema::create('valors', function (Blueprint $table) {
             $table->increments('id');
             $table->string('descripcion');
+
+
+            $table->integer('id_hom')->unsigned();
+            $table->foreign('id_hom')->references('id')->on('homes')->onDelete('cascade');
+
             $table->timestamps();
         });
     }
