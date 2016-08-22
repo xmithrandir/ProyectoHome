@@ -271,7 +271,7 @@ class ComposerStaticInite65064664a0dc664d4d8848b026fa1a1
         'CreateDescripcionsTable' => __DIR__ . '/../..' . '/database/migrations/2016_08_15_052126_create_descripcions_table.php',
         'CreateDistritosTable' => __DIR__ . '/../..' . '/database/migrations/2016_08_22_192755_create_distritos_table.php',
         'CreateEstadosTable' => __DIR__ . '/../..' . '/database/migrations/2016_08_11_190710_create_estados_table.php',
-        'CreateHomesTable' => __DIR__ . '/../..' . '/database/migrations/2016_08_22_193209_create_homes_table.php',
+        'CreateHomesTable' => __DIR__ . '/../..',
         'CreateImagensTable' => __DIR__ . '/../..' . '/database/migrations/2016_08_22_192837_create_imagens_table.php',
         'CreatePasswordResetsTable' => __DIR__ . '/../..' . '/database/migrations/2016_08_12_100000_create_password_resets_table.php',
         'CreatePermisosTable' => __DIR__ . '/../..' . '/database/migrations/2016_08_11_190703_create_permisos_table.php',
