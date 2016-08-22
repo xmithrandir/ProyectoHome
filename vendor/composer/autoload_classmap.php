@@ -6,12 +6,18 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'CreateDepartamentosTable' => $baseDir . '/database/migrations/2016_08_22_192734_create_departamentos_table.php',
     'CreateDescripcionsTable' => $baseDir . '/database/migrations/2016_08_15_052126_create_descripcions_table.php',
+    'CreateDistritosTable' => $baseDir . '/database/migrations/2016_08_22_192755_create_distritos_table.php',
     'CreateEstadosTable' => $baseDir . '/database/migrations/2016_08_11_190710_create_estados_table.php',
-    'CreateNoticiasTable' => $baseDir . '/database/migrations/2016_08_15_063625_create_noticias_table.php',
+    'CreateHomesTable' => $baseDir . '/database/migrations/2016_08_22_193209_create_homes_table.php',
+    'CreateImagensTable' => $baseDir . '/database/migrations/2016_08_22_192837_create_imagens_table.php',
     'CreatePasswordResetsTable' => $baseDir . '/database/migrations/2016_08_12_100000_create_password_resets_table.php',
     'CreatePermisosTable' => $baseDir . '/database/migrations/2016_08_11_190703_create_permisos_table.php',
+    'CreateProvinciasTable' => $baseDir . '/database/migrations/2016_08_22_192741_create_provincias_table.php',
+    'CreateStatesTable' => $baseDir . '/database/migrations/2016_08_22_192916_create_states_table.php',
     'CreateUsersTable' => $baseDir . '/database/migrations/2016_08_13_100000_create_users_table.php',
+    'CreateValorsTable' => $baseDir . '/database/migrations/2016_08_22_193114_create_valors_table.php',
     'DatabaseSeeder' => $baseDir . '/database/seeds/DatabaseSeeder.php',
     'File_Iterator' => $vendorDir . '/phpunit/php-file-iterator/src/Iterator.php',
     'File_Iterator_Facade' => $vendorDir . '/phpunit/php-file-iterator/src/Facade.php',
